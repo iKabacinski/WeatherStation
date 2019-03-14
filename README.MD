@@ -1,1 +1,1 @@
-#WeatherStation Firs .NET program
+#WeatherStation First .NET program
