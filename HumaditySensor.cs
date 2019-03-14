@@ -6,6 +6,6 @@ namespace Zadanie1
 {
     class HumaditySensor : Sensor, IHumidity
     {
-        public int MeasureHumidity { get => MeasureHumidity; set => value=MeasureHumidity; }
+        public int MeasureHumidity { get => MeasureHumidity; set => MeasureHumidity=value; }
     }
 }

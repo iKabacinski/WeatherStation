@@ -9,6 +9,6 @@ namespace Zadanie1
         private Exception BadUnitException = new Exception("ZŁa wartość pomiarowa");
 
         public float MeasureTemperature { get => MeasureTemperature; set => value=MeasureTemperature; }
-        public string Unit { get => Unit; set => value=Unit; }
+        public string Unit { get => Unit; set => Unit=value; }
     }
 }
