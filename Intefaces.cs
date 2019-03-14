@@ -11,7 +11,7 @@ namespace Zadanie1
             set;
             get;
         }
-        float MeasureTemperature
+        float Temperature
         {
             set;
             get;
@@ -20,7 +20,7 @@ namespace Zadanie1
     }
     interface IHumidity
     {
-        int MeasureHumidity
+        int Humidity
         {
             set;
             get;
@@ -28,7 +28,7 @@ namespace Zadanie1
     }
     interface IPressure
     {
-        int MeasurePressure
+        int Pressure
         {
             set;
             get;
