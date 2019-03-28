@@ -9,26 +9,44 @@ namespace Zadanie1
 
     class Program
     {
+        WeatherStation weatherStation = new WeatherStation();
+        int wybor;
+
         static void Main(string[] args)
         {
+            Program a = new Program();
+           
+            
+                a.printInstruction();
+                Console.WriteLine("Podaj Liczbe");
+                Int32.TryParse(Console.ReadLine(), out a.wybor);
+       
+                switch (a.wybor)
+                {
+                    case 1:
+                        a.addMenu();
+                        break;
+                    case 2:
+                        a.readMenu();
+                        break;
+                    case 3:
+                        a.searchMenu();
+                        break;
+                    case 4:
+                        a.saveAll;
+                        break;
+         
+                }
+  
 
-            try
-            {
-
-                Sensor s = new Sensor();
-                System.Console.WriteLine(s.name);
-
-                Sensor s1 = new Sensor();
-                System.Console.WriteLine(s1.name);
-
-                Sensor s2 = new Sensor();
-                System.Console.WriteLine(s2.name);
-            }catch(Exception NameLengthException)
-            {
-                Console.WriteLine(NameLengthException.ToString());
-
-            }
-
+        private void printInstruction()
+        {
+            Console.Clear();
+            Console.WriteLine("1:   Dodawanie");
+            Console.WriteLine("2:   Odczyt");
+            Console.WriteLine("3:   Wyszukaj");
+            Console.WriteLine("4:   Zapisz");
+            Console.WriteLine("5:   Wyjdz");
         }
     }
 }

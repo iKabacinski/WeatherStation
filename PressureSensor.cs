@@ -6,6 +6,8 @@ namespace Zadanie1
 {
     class PressureSensor : Sensor, IPressure
     {
-        public int Pressure { get => Pressure; set => Pressure=value; }
+        public int Pressure { get => Pressure; set => Pressure=value;}
+
+
     }
 }

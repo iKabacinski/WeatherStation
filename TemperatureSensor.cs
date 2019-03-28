@@ -10,5 +10,6 @@ namespace Zadanie1
 
         public float Temperature { get => Temperature; set => value=Temperature; }
         public string Unit { get => Unit; set => Unit=value; }
+
     }
 }

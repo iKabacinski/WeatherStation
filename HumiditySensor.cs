@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Zadanie1
 {
-    class HumaditySensor : Sensor, IHumidity
+    class HumiditySensor : Sensor, IHumidity
     {
         public int Humidity { get => Humidity; set => Humidity=value; }
+
+
     }
 }

@@ -25,6 +25,7 @@ namespace Zadanie1
             set;
             get;
         }
+
     }
     interface IPressure
     {
